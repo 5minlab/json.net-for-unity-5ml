@@ -38,17 +38,17 @@ using System.Numerics;
 #endif
 using System.Reflection;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Fiveminlab.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     [Preserve]
     internal class JsonSerializerInternalReader : JsonSerializerInternalBase

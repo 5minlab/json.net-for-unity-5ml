@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json
+namespace Fiveminlab.Newtonsoft.Json
 {
     /// <summary>
     /// Provides an interface to enable a class to return line and position information.

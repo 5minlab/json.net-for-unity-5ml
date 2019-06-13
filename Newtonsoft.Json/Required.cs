@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json
+namespace Fiveminlab.Newtonsoft.Json
 {
     /// <summary>
     /// Indicating whether a property is required.

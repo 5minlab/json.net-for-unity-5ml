@@ -29,19 +29,19 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 #endif
 using System.Threading;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 using System.Collections;
 using System.Globalization;
 using System.ComponentModel;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Fiveminlab.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Linq
+namespace Fiveminlab.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a token that can contain other tokens.

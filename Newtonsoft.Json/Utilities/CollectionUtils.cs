@@ -30,15 +30,15 @@ using System.Reflection;
 using System.Text;
 using System.Collections;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Fiveminlab.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 using System.Globalization;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal static class CollectionUtils

@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Provides data for the Error event.

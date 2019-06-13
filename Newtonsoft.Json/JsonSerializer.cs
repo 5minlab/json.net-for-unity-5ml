@@ -30,14 +30,14 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Runtime.Serialization.Formatters;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Converters;
+using Fiveminlab.Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Shims;
-using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using ErrorEventArgs = Fiveminlab.Newtonsoft.Json.Serialization.ErrorEventArgs;
 
-namespace Newtonsoft.Json
+namespace Fiveminlab.Newtonsoft.Json
 {
     /// <summary>
     /// Serializes and deserializes objects into and from the JSON format.

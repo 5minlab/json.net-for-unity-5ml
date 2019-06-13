@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json.Shims;
+﻿using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json
+namespace Fiveminlab.Newtonsoft.Json
 {
     /// <summary>
     /// Provides an interface for using pooled arrays.

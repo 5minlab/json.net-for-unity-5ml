@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json
+namespace Fiveminlab.Newtonsoft.Json
 {
     /// <summary>
     /// Specifies how to treat the time value when converting between string and <see cref="DateTime"/>.

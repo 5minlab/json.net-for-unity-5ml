@@ -25,9 +25,9 @@
 
 using System.Globalization;
 using System.IO;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Linq
+namespace Fiveminlab.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a raw JSON string.

@@ -26,10 +26,10 @@
 using System;
 using System.Globalization;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json
+namespace Fiveminlab.Newtonsoft.Json
 {
     /// <summary>
     /// The exception thrown when an error occurs while reading JSON text.

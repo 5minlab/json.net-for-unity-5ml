@@ -26,14 +26,14 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Fiveminlab.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal static class TypeExtensions

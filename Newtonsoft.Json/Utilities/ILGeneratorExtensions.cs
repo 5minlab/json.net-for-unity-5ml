@@ -27,9 +27,9 @@
 using System;
 using System.Reflection.Emit;
 using System.Reflection;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal static class ILGeneratorExtensions

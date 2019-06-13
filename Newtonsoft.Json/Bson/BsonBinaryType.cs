@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Bson
+namespace Fiveminlab.Newtonsoft.Json.Bson
 {
     [Preserve]
     internal enum BsonBinaryType : byte

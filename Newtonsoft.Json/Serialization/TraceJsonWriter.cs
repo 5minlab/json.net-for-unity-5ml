@@ -6,9 +6,9 @@ using System.IO;
 using System.Numerics;
 #endif
 using System.Text;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     [Preserve]
     internal class TraceJsonWriter : JsonWriter

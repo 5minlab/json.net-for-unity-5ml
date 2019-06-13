@@ -1,9 +1,9 @@
 ﻿using System;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Shims;
 using UnityEngine;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Json Converter for Vector2, Vector3 and Vector4.  Only serializes x, y, (z) and (w) properties.

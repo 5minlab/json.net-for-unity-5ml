@@ -24,10 +24,10 @@
 #endregion
 
 using System.Globalization;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Resolves member mappings for a type, camel casing property names.

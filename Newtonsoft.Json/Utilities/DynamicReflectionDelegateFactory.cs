@@ -27,15 +27,15 @@
 using System;
 using System.Collections.Generic;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Fiveminlab.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 using System.Reflection;
 using System.Reflection.Emit;
-using Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Serialization;
 using System.Globalization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal class DynamicReflectionDelegateFactory : ReflectionDelegateFactory

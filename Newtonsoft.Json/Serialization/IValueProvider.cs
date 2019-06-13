@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Provides methods to get and set values.

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Linq.JsonPath
+namespace Fiveminlab.Newtonsoft.Json.Linq.JsonPath
 {
     [Preserve]
     internal class ScanFilter : PathFilter

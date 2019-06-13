@@ -31,12 +31,12 @@ using System.IO;
 using System.Numerics;
 #endif
 using System.Text;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Linq;
 using System.Globalization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Bson
+namespace Fiveminlab.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.

@@ -25,12 +25,12 @@
 
 using System;
 using System.Text.RegularExpressions;
-using Newtonsoft.Json.Bson;
+using Fiveminlab.Newtonsoft.Json.Bson;
 using System.Globalization;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="Regex"/> to and from JSON and BSON.

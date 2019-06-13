@@ -23,9 +23,9 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal delegate TResult MethodCall<T, TResult>(T target, params object[] args);

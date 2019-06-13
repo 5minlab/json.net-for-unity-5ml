@@ -25,14 +25,14 @@
 
 using System;
 using System.Reflection;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Fiveminlab.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Maps a JSON property to a .NET member or constructor parameter.

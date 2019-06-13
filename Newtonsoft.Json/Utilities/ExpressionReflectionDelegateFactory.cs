@@ -30,10 +30,10 @@ using System.Text;
 using System;
 using System.Linq.Expressions;
 using System.Reflection;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal class ExpressionReflectionDelegateFactory : ReflectionDelegateFactory

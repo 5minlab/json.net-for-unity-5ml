@@ -1,7 +1,7 @@
 ﻿using System;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Linq
+namespace Fiveminlab.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how null value properties are merged.

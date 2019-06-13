@@ -32,14 +32,14 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Xml;
 using System.Reflection;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Shims;
 #if !(NET20 || PORTABLE40)
 using System.Xml.Linq;
 #endif
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     #region XmlNodeWrappers
 #if !DOTNET && !PORTABLE && !PORTABLE40

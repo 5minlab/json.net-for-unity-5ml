@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Provides a base class for converting a <see cref="DateTime"/> to and from JSON.

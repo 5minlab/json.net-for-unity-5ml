@@ -27,10 +27,10 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Bson
+namespace Fiveminlab.Newtonsoft.Json.Bson
 {
     [Preserve]
     internal class BsonBinaryWriter

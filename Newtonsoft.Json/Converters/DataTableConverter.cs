@@ -26,13 +26,13 @@
 #if !(DOTNET || PORTABLE40 || PORTABLE || UNITYPROFILE)
 using System.Collections.Generic;
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 using System;
 using System.Data;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="DataTable"/> to and from JSON.

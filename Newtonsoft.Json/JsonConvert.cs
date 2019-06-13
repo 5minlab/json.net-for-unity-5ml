@@ -32,19 +32,19 @@ using System.Numerics;
 #if !(NET20 || NET35 || PORTABLE40)
 using System.Threading.Tasks;
 #endif
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 using System.Xml;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Serialization;
+using Fiveminlab.Newtonsoft.Json.Converters;
+using Fiveminlab.Newtonsoft.Json.Serialization;
 using System.Text;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 #if !(NET20 || PORTABLE40)
 using System.Xml.Linq;
 
 #endif
 
-namespace Newtonsoft.Json
+namespace Fiveminlab.Newtonsoft.Json
 {
     /// <summary>
     /// Provides methods for converting between common language runtime types and JSON types.

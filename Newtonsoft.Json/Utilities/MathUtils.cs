@@ -26,9 +26,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal static class MathUtils

@@ -39,19 +39,19 @@ using System.Runtime.Serialization;
 #if !(DOTNET || PORTABLE || PORTABLE40)
 using System.Security.Permissions;
 #endif
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Converters;
+using Fiveminlab.Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Linq;
 using System.Runtime.CompilerServices;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 #if NET20
-using Newtonsoft.Json.Utilities.LinqBridge;
+using Fiveminlab.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     [Preserve]
     internal struct ResolverContractKey

@@ -29,12 +29,12 @@ using System;
 using System.Data.SqlTypes;
 #endif
 using System.Globalization;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 using System.Collections.Generic;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a binary value to and from a base 64 string value.

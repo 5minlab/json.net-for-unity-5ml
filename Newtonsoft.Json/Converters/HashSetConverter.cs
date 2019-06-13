@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     public class HashSetConverter : JsonConverter
     {

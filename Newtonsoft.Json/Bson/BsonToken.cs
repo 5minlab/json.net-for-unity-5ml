@@ -25,9 +25,9 @@
 
 using System.Collections;
 using System.Collections.Generic;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Bson
+namespace Fiveminlab.Newtonsoft.Json.Bson
 {
     [Preserve]
     internal abstract class BsonToken

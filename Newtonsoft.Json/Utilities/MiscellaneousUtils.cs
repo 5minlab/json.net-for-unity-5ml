@@ -30,9 +30,9 @@ using System.ComponentModel;
 using System.Reflection;
 using System.Text;
 using System.Globalization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Utilities
+namespace Fiveminlab.Newtonsoft.Json.Utilities
 {
     [Preserve]
     internal delegate T Creator<T>();

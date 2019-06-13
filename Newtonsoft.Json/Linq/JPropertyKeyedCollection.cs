@@ -26,10 +26,10 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Linq
+namespace Fiveminlab.Newtonsoft.Json.Linq
 {
     [Preserve]
     internal class JPropertyKeyedCollection : Collection<JToken>

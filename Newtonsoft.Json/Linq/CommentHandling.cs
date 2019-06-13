@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json.Shims;
+﻿using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Linq
+namespace Fiveminlab.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how JSON comments are handled when loading JSON.

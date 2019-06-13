@@ -27,11 +27,11 @@
 using System;
 using System.Globalization;
 using System.Runtime.Serialization;
-using Newtonsoft.Json.Utilities;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Serialization
+namespace Fiveminlab.Newtonsoft.Json.Serialization
 {
     [Preserve]
     internal class JsonFormatterConverter : IFormatterConverter

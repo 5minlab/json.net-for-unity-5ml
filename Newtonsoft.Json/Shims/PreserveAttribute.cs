@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Newtonsoft.Json.Shims
+namespace Fiveminlab.Newtonsoft.Json.Shims
 {
     [Preserve]
     public class PreserveAttribute : Attribute

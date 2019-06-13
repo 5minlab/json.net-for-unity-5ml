@@ -26,9 +26,9 @@
 #if !(DOTNET || PORTABLE || PORTABLE40)
 using System;
 using System.ComponentModel;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Linq
+namespace Fiveminlab.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a view of a <see cref="JProperty"/>.

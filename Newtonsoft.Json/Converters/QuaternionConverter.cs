@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Newtonsoft.Json.Linq;
+using Fiveminlab.Newtonsoft.Json.Linq;
 using UnityEngine;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     public class QuaternionConverter : JsonConverter
     {

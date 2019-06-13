@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     public class UriConverter : JsonConverter
     {

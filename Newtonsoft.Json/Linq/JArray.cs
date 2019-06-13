@@ -26,12 +26,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 using System.IO;
 using System.Globalization;
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
-namespace Newtonsoft.Json.Linq
+namespace Fiveminlab.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a JSON array.
@@ -263,7 +263,7 @@ namespace Newtonsoft.Json.Linq
         }
 
         /// <summary>
-        /// Gets or sets the <see cref="Newtonsoft.Json.Linq.JToken"/> at the specified index.
+        /// Gets or sets the <see cref="Fiveminlab.Newtonsoft.Json.Linq.JToken"/> at the specified index.
         /// </summary>
         /// <value></value>
         public JToken this[int index]

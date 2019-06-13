@@ -24,12 +24,12 @@
 #endregion
 
 using System;
-using Newtonsoft.Json.Bson;
+using Fiveminlab.Newtonsoft.Json.Bson;
 using System.Globalization;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Converters
+namespace Fiveminlab.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="BsonObjectId"/> to and from JSON and BSON.

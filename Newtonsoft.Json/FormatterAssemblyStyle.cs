@@ -1,5 +1,5 @@
 ﻿
-using Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Shims;
 
 #if DOTNET || PORTABLE40 || PORTABLE
 

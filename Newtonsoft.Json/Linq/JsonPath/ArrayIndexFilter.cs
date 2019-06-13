@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Globalization;
-using Newtonsoft.Json.Shims;
-using Newtonsoft.Json.Utilities;
+using Fiveminlab.Newtonsoft.Json.Shims;
+using Fiveminlab.Newtonsoft.Json.Utilities;
 
-namespace Newtonsoft.Json.Linq.JsonPath
+namespace Fiveminlab.Newtonsoft.Json.Linq.JsonPath
 {
     [Preserve]
     internal class ArrayIndexFilter : PathFilter

@@ -8,8 +8,8 @@
     <ProjectGuid>{495BAA54-87D4-4EB8-99A5-8988D821B484}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
+    <RootNamespace>Fiveminlab.Newtonsoft.Json</RootNamespace>
+    <AssemblyName>Fiveminlab.Newtonsoft.Json</AssemblyName>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
@@ -46,7 +46,7 @@
     <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;NET35;AOT;UNITYPROFILE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\artifacts\Debug\Assemblies\AOT\Newtonsoft.Json.XML</DocumentationFile>
+    <DocumentationFile>..\artifacts\Debug\Assemblies\AOT\Fiveminlab.Newtonsoft.Json.xml</DocumentationFile>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <CodeAnalysisRules>
     </CodeAnalysisRules>
@@ -61,7 +61,7 @@
     <DefineConstants>TRACE;NET35; AOT;UNITYPROFILE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\artifacts\Release\Assemblies\AOT\Newtonsoft.Json.XML</DocumentationFile>
+    <DocumentationFile>..\artifacts\Release\Assemblies\AOT\Fiveminlab.Newtonsoft.Json.xml</DocumentationFile>
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>

@@ -6,8 +6,8 @@
     <ProjectGuid>{AFD7C1F3-075C-407F-95CE-EB12C6CC4884}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Newtonsoft.Json</RootNamespace>
-    <AssemblyName>Newtonsoft.Json</AssemblyName>
+    <RootNamespace>Fiveminlab.Newtonsoft.Json</RootNamespace>
+    <AssemblyName>Fiveminlab.Newtonsoft.Json</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -25,7 +25,7 @@
     <WarningLevel>4</WarningLevel>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>..\artifacts\Debug\Assemblies\Windows\Newtonsoft.Json.XML</DocumentationFile>
+    <DocumentationFile>..\artifacts\Debug\Assemblies\Windows\Fiveminlab.Newtonsoft.Json.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -35,7 +35,7 @@
     <DefineConstants>TRACE;PORTABLE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\artifacts\Release\Assemblies\Windows\Newtonsoft.Json.XML</DocumentationFile>
+    <DocumentationFile>..\Artifacts\Release\Assemblies\Windows\Fiveminlab.Newtonsoft.Json.xml</DocumentationFile>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
